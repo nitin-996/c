@@ -16,3 +16,6 @@ int main()
     b=2;
     printf("%f",pow(a,b));
 }
+
+
+ 
