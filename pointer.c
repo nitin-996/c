@@ -6,7 +6,12 @@ int main(){
     int *ptr = &age;
     int _age= *ptr;
 
-    printf("%d\n",_age );
+// Incrementing the value of age using the pointer
+    (*ptr)++;
+
+    // Updating _age after incrementing age
+    _age = *ptr;
+    printf("%d\n", _age );
     printf("%p\n", &_age );
     printf("%p\n", &age );
 
